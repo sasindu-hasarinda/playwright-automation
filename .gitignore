@@ -1,0 +1,35 @@
+# Node.js / dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# Playwright reports, traces, videos, screenshots
+playwright-report/
+test-results/
+blob-report/
+.playwright/
+trace*.zip
+video/
+screenshots/
+
+# Auth / sensitive states
+.playwright/.auth/
+*.auth.json
+storageState*.json
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Editors & temporary files
+.vscode/
+.idea/
+*.log
+*.tmp
+*.cache
+.DS_Store
+Thumbs.db
